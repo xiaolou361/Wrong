@@ -1,5 +1,5 @@
 #include <stdio.h>
-int a1 = 300, a2 = 400;
+int a1 = 300, a2 = 400; //a1a2均为全局变量
 void sub1( int x, int y );
 
 
@@ -19,5 +19,5 @@ int main()
 
 void sub1( int x, int y )
 {
-	a1 = x; x = y; y = a1;
+	a1 = x; x = y; y = a1; 
 }
